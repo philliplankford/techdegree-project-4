@@ -1,3 +1,5 @@
+// USE 
+
 // COLORS
 
 $primary-color: #58e1c1;
@@ -7,7 +9,41 @@ $success-color: #63cc82;
 $error-color: #e4757a;
 $info-color: #927bc1;
 $default-color: #51ddfc;
+$white: #fff;
+$base-text-color: #777;
+$border-color: #ccc;
 
 // MEDIA QUERY BREAKPOINTS
 
 $media-breakpoint: 768px;
+
+// FUNCTION VARIABLES 
+
+$max-col: 12;
+
+// MAPS 
+
+$theme-colors: (
+    'col-1': #927bc1,
+    'col-2': #fd7856,
+    'col-3': #deb2ee,
+    'col-4': #7ee6fd,
+    'col-5': #88d9a0,
+    'col-6': #4da2bb,
+    'col-7': #ec9fa3,
+    'col-8': #fd9f85,
+    'col-9': #e4757a,
+    'col-10': #63cc82,
+    'col-11': #51ddfc,
+    'col-12': #80e8d1,
+);
+
+//LISTS 
+
+$button-types: (
+    'default': $default-color,
+    'error': $error-color,
+    'info': $info-color,
+    'success': $success-color,
+    'warning': $warning-color,
+)
